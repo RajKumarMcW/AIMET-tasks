@@ -1,0 +1,28 @@
+{
+    "name": "resnet50",
+    "framework": "pytorch",
+    "task": "image classification",
+    "model_args": {
+        "num_classes": 1000
+    },
+    "input_shape": [null, 3, 224, 224],
+    "calib_per_class": 2,
+    "val_per_class":1000,
+    "training_dataset": "ImageNet",
+    "use_cuda": true,
+    "optimization_config": {
+        "quantization_configuration":
+            {
+                "type": "resnet50_w8a8",
+                "param_bw": 8,
+                "output_bw": 8,
+                "input_quantization": true,
+                "quant_scheme": "tf_enhanced",
+                "techniques": ["cle","bn", "adaround"]
+            }
+        },
+    "allowed_accuracy_drop": 1,
+    "images_dir": "/DATA/ModelQuantization/dataset/ImageNet/val/",
+    "exports_path": "/DATA/ModelQuantization/workspace/Raj/aimet-model-zoo/aimet_zoo_torch/artifacts",
+    "exports_name": "resnet50_w8a8"
+}

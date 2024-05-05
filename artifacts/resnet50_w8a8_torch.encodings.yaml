@@ -1,0 +1,1173 @@
+activation_encodings:
+  avgpool:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 12.318648338317871
+        min: 0.0
+        offset: 0
+        scale: 0.04830842465162277
+  conv1:
+    input:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 2.6391501426696777
+        min: -2.1001687049865723
+        offset: -113
+        scale: 0.0185855645686388
+  fc:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 41.12428665161133
+        min: -9.781990051269531
+        offset: -49
+        scale: 0.1996324509382248
+  layer1.0.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.165017306804657
+        min: -0.9419289231300354
+        offset: -114
+        scale: 0.008262534625828266
+  layer1.0.downsample.0:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 2.274339437484741
+        min: -3.4115092754364014
+        offset: -153
+        scale: 0.022297445684671402
+  layer1.0.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.39322566986084
+        min: 0.0
+        offset: 0
+        scale: 0.01722833514213562
+  layer1.1.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.1050384044647217
+        min: -1.345264196395874
+        offset: -140
+        scale: 0.00960902962833643
+  layer1.1.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 3.8022878170013428
+        min: 0.0
+        offset: 0
+        scale: 0.014910932630300522
+  layer1.2.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.3629772663116455
+        min: -1.6592767238616943
+        offset: -140
+        scale: 0.011851976625621319
+  layer1.2.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 3.0528194904327393
+        min: 0.0
+        offset: 0
+        scale: 0.01197184156626463
+  layer2.0.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.8196942806243896
+        min: -1.4712421894073486
+        offset: -114
+        scale: 0.012905633077025414
+  layer2.0.downsample.0:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.54904305934906
+        min: -1.2524176836013794
+        offset: -114
+        scale: 0.01098612044006586
+  layer2.0.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 3.7188711166381836
+        min: 0.0
+        offset: 0
+        scale: 0.014583808369934559
+  layer2.1.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.9501795768737793
+        min: -2.374131679534912
+        offset: -140
+        scale: 0.0169580839574337
+  layer2.1.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 2.5275816917419434
+        min: 0.0
+        offset: 0
+        scale: 0.00991208478808403
+  layer2.2.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.3732548952102661
+        min: -1.362526297569275
+        offset: -127
+        scale: 0.010728553868830204
+  layer2.2.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 3.255525827407837
+        min: 0.0
+        offset: 0
+        scale: 0.012766768224537373
+  layer2.3.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 3.094048261642456
+        min: -2.5015709400177
+        offset: -114
+        scale: 0.021943604573607445
+  layer2.3.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 2.520085334777832
+        min: 0.0
+        offset: 0
+        scale: 0.009882687591016293
+  layer3.0.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.4933059215545654
+        min: -1.2073535919189453
+        offset: -114
+        scale: 0.010590821504592896
+  layer3.0.downsample.0:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.191606342792511
+        min: -0.9634265303611755
+        offset: -114
+        scale: 0.008451109752058983
+  layer3.0.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.047309875488281
+        min: 0.0
+        offset: 0
+        scale: 0.0158718042075634
+  layer3.1.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 3.601240396499634
+        min: -2.6035993099212646
+        offset: -107
+        scale: 0.02433270402252674
+  layer3.1.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 3.3739418983459473
+        min: 0.0
+        offset: 0
+        scale: 0.013231144286692142
+  layer3.2.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 0.829323947429657
+        min: -0.822844922542572
+        offset: -127
+        scale: 0.0064790938049554825
+  layer3.2.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.9228214025497437
+        min: 0.0
+        offset: 0
+        scale: 0.0075404760427773
+  layer3.3.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.217869520187378
+        min: -1.48262357711792
+        offset: -140
+        scale: 0.01059016864746809
+  layer3.3.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 2.502995491027832
+        min: 0.0
+        offset: 0
+        scale: 0.009815668687224388
+  layer3.4.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.1723462343215942
+        min: -1.4272040128707886
+        offset: -140
+        scale: 0.010194314643740654
+  layer3.4.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 2.9823150634765625
+        min: 0.0
+        offset: 0
+        scale: 0.01169535331428051
+  layer3.5.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 1.568155288696289
+        min: -2.3522329330444336
+        offset: -153
+        scale: 0.015374071896076202
+  layer3.5.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 3.6469759941101074
+        min: 0.0
+        offset: 0
+        scale: 0.014301866292953491
+  layer4.0.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 3.882540464401245
+        min: -2.588360548019409
+        offset: -102
+        scale: 0.025376083329319954
+  layer4.0.downsample.0:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 2.817784070968628
+        min: -1.8785226345062256
+        offset: -102
+        scale: 0.018416889011859894
+  layer4.0.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 2.7189807891845703
+        min: 0.0
+        offset: 0
+        scale: 0.010662669315934181
+  layer4.1.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 3.009143352508545
+        min: -2.0060954093933105
+        offset: -102
+        scale: 0.019667603075504303
+  layer4.1.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 6.9061431884765625
+        min: 0.0
+        offset: 0
+        scale: 0.027082914486527443
+  layer4.2.conv3:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 6.793935537338257
+        min: -2.8845760822296143
+        offset: -76
+        scale: 0.03795494884252548
+  layer4.2.relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 7.0865478515625
+        min: 0.0
+        offset: 0
+        scale: 0.027790384367108345
+  maxpool:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 7.443413734436035
+        min: 0.0
+        offset: 0
+        scale: 0.029189858585596085
+  module_layer1_0_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 5.524374008178711
+        min: 0.0
+        offset: 0
+        scale: 0.0216642115265131
+  module_layer1_0_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.21058464050293
+        min: 0.0
+        offset: 0
+        scale: 0.01651209592819214
+  module_layer1_1_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.421084403991699
+        min: 0.0
+        offset: 0
+        scale: 0.017337586730718613
+  module_layer1_1_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.433994293212891
+        min: 0.0
+        offset: 0
+        scale: 0.01738821342587471
+  module_layer1_2_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 6.8541107177734375
+        min: 0.0
+        offset: 0
+        scale: 0.02687886543571949
+  module_layer1_2_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.324944496154785
+        min: 0.0
+        offset: 0
+        scale: 0.016960566863417625
+  module_layer2_0_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 6.028536796569824
+        min: 0.0
+        offset: 0
+        scale: 0.023641319945454597
+  module_layer2_0_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.30397891998291
+        min: 0.0
+        offset: 0
+        scale: 0.016878347843885422
+  module_layer2_1_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 6.787522315979004
+        min: 0.0
+        offset: 0
+        scale: 0.026617733761668205
+  module_layer2_1_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.29001522064209
+        min: 0.0
+        offset: 0
+        scale: 0.01682358980178833
+  module_layer2_2_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.475054740905762
+        min: 0.0
+        offset: 0
+        scale: 0.01754923351109028
+  module_layer2_2_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.839300155639648
+        min: 0.0
+        offset: 0
+        scale: 0.01897764764726162
+  module_layer2_3_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.864655494689941
+        min: 0.0
+        offset: 0
+        scale: 0.019077081233263016
+  module_layer2_3_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.998032569885254
+        min: 0.0
+        offset: 0
+        scale: 0.019600126892328262
+  module_layer3_0_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 5.152523994445801
+        min: 0.0
+        offset: 0
+        scale: 0.02020597644150257
+  module_layer3_0_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.6080851554870605
+        min: 0.0
+        offset: 0
+        scale: 0.018070921301841736
+  module_layer3_1_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.243997573852539
+        min: 0.0
+        offset: 0
+        scale: 0.01664312742650509
+  module_layer3_1_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.606498718261719
+        min: 0.0
+        offset: 0
+        scale: 0.018064700067043304
+  module_layer3_2_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 3.149256706237793
+        min: 0.0
+        offset: 0
+        scale: 0.01235002651810646
+  module_layer3_2_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.57405948638916
+        min: 0.0
+        offset: 0
+        scale: 0.017937488853931427
+  module_layer3_3_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.2426347732543945
+        min: 0.0
+        offset: 0
+        scale: 0.016637783497571945
+  module_layer3_3_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.930093765258789
+        min: 0.0
+        offset: 0
+        scale: 0.019333701580762863
+  module_layer3_4_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.759992599487305
+        min: 0.0
+        offset: 0
+        scale: 0.018666638061404228
+  module_layer3_4_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 5.102927207946777
+        min: 0.0
+        offset: 0
+        scale: 0.020011479035019875
+  module_layer3_5_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 5.298596382141113
+        min: 0.0
+        offset: 0
+        scale: 0.020778808742761612
+  module_layer3_5_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 4.5917205810546875
+        min: 0.0
+        offset: 0
+        scale: 0.01800674758851528
+  module_layer4_0_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 9.894721984863281
+        min: 0.0
+        offset: 0
+        scale: 0.03880283236503601
+  module_layer4_0_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 16.555416107177734
+        min: 0.0
+        offset: 0
+        scale: 0.06492319703102112
+  module_layer4_1_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 15.74932861328125
+        min: 0.0
+        offset: 0
+        scale: 0.06176207214593887
+  module_layer4_1_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 25.035974502563477
+        min: 0.0
+        offset: 0
+        scale: 0.09818029403686523
+  module_layer4_2_relu_1:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 23.89826202392578
+        min: 0.0
+        offset: 0
+        scale: 0.09371867775917053
+  module_layer4_2_relu_2:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 37.93754577636719
+        min: 0.0
+        offset: 0
+        scale: 0.14877468347549438
+  relu:
+    output:
+      0:
+        bitwidth: 8
+        dtype: int
+        is_symmetric: 'False'
+        max: 7.443413734436035
+        min: 0.0
+        offset: 0
+        scale: 0.029189858585596085
+excluded_layers: []
+param_encodings:
+  conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.47186437249183655
+    min: -0.4755798280239105
+    offset: -128
+    scale: 0.003715467406436801
+  fc.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.3661693334579468
+    min: -0.369052529335022
+    offset: -128
+    scale: 0.002883222885429859
+  layer1.0.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.4093537926673889
+    min: -0.4125770330429077
+    offset: -128
+    scale: 0.0032232580706477165
+  layer1.0.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.4538224935531616
+    min: -0.45739591121673584
+    offset: -128
+    scale: 0.0035734055563807487
+  layer1.0.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.4629867374897003
+    min: -0.46663227677345276
+    offset: -128
+    scale: 0.0036455646622925997
+  layer1.0.downsample.0.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 1.435167670249939
+    min: -1.4464682340621948
+    offset: -128
+    scale: 0.011300533078610897
+  layer1.1.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.42629534006118774
+    min: -0.42965197563171387
+    offset: -128
+    scale: 0.0033566560596227646
+  layer1.1.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.5854060053825378
+    min: -0.5900154709815979
+    offset: -128
+    scale: 0.004609495867043734
+  layer1.1.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.5851868391036987
+    min: -0.5897946357727051
+    offset: -128
+    scale: 0.004607770591974258
+  layer1.2.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.503987729549408
+    min: -0.5079560875892639
+    offset: -128
+    scale: 0.003968406934291124
+  layer1.2.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.4795863628387451
+    min: -0.48336261510849
+    offset: -128
+    scale: 0.003776270430535078
+  layer1.2.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.4600607454776764
+    min: -0.46368327736854553
+    offset: -128
+    scale: 0.003622525604441762
+  layer2.0.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.37633585929870605
+    min: -0.3792991638183594
+    offset: -128
+    scale: 0.0029632747173309326
+  layer2.0.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.6616717576980591
+    min: -0.666881799697876
+    offset: -128
+    scale: 0.005210014060139656
+  layer2.0.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.7531811594963074
+    min: -0.7591117024421692
+    offset: -128
+    scale: 0.005930560175329447
+  layer2.0.downsample.0.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.717710554599762
+    min: -0.7233617901802063
+    offset: -128
+    scale: 0.005651263985782862
+  layer2.1.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.34986692667007446
+    min: -0.35262179374694824
+    offset: -128
+    scale: 0.002754857763648033
+  layer2.1.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.4196131229400635
+    min: -0.4229171872138977
+    offset: -128
+    scale: 0.003304040525108576
+  layer2.1.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.477466344833374
+    min: -0.4812259078025818
+    offset: -128
+    scale: 0.00375957740470767
+  layer2.2.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.26500338315963745
+    min: -0.2670900225639343
+    offset: -128
+    scale: 0.002086640801280737
+  layer2.2.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.3807797133922577
+    min: -0.38377800583839417
+    offset: -128
+    scale: 0.0029982656706124544
+  layer2.2.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.37682682275772095
+    min: -0.3797939419746399
+    offset: -128
+    scale: 0.002967140171676874
+  layer2.3.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.2776230573654175
+    min: -0.27980905771255493
+    offset: -128
+    scale: 0.0021860082633793354
+  layer2.3.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.5103668570518494
+    min: -0.5143855214118958
+    offset: -128
+    scale: 0.0040186368860304356
+  layer2.3.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.4936903715133667
+    min: -0.4975777268409729
+    offset: -128
+    scale: 0.003887325990945101
+  layer3.0.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.28652477264404297
+    min: -0.2887808680534363
+    offset: -128
+    scale: 0.002256100531667471
+  layer3.0.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.4432445168495178
+    min: -0.44673460721969604
+    offset: -128
+    scale: 0.0034901141189038754
+  layer3.0.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.49304744601249695
+    min: -0.49692973494529724
+    offset: -128
+    scale: 0.0038822635542601347
+  layer3.0.downsample.0.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.3877095878124237
+    min: -0.39076241850852966
+    offset: -128
+    scale: 0.003052831394597888
+  layer3.1.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.2497478425502777
+    min: -0.2517143785953522
+    offset: -128
+    scale: 0.001966518582776189
+  layer3.1.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.36218157410621643
+    min: -0.36503341794013977
+    offset: -128
+    scale: 0.002851823577657342
+  layer3.1.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.3831144869327545
+    min: -0.3861311376094818
+    offset: -128
+    scale: 0.0030166495125740767
+  layer3.2.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.19452477991580963
+    min: -0.19605647027492523
+    offset: -128
+    scale: 0.0015316911740228534
+  layer3.2.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.3219391405582428
+    min: -0.3244740664958954
+    offset: -128
+    scale: 0.0025349536444991827
+  layer3.2.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.3219391405582428
+    min: -0.3244740664958954
+    offset: -128
+    scale: 0.0025349536444991827
+  layer3.3.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.28165656328201294
+    min: -0.2838743329048157
+    offset: -128
+    scale: 0.0022177682258188725
+  layer3.3.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.4895630478858948
+    min: -0.4934178590774536
+    offset: -128
+    scale: 0.0038548270240426064
+  layer3.3.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.6223973035812378
+    min: -0.62729811668396
+    offset: -128
+    scale: 0.004900766536593437
+  layer3.4.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.26428547501564026
+    min: -0.26636645197868347
+    offset: -128
+    scale: 0.0020809879060834646
+  layer3.4.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.43531325459480286
+    min: -0.43874093890190125
+    offset: -128
+    scale: 0.0034276635851711035
+  layer3.4.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.4801748991012573
+    min: -0.4839558005332947
+    offset: -128
+    scale: 0.0037809046916663647
+  layer3.5.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.28463149070739746
+    min: -0.2868726849555969
+    offset: -128
+    scale: 0.002241192851215601
+  layer3.5.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.3800745904445648
+    min: -0.3830672800540924
+    offset: -128
+    scale: 0.002992713125422597
+  layer3.5.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.43046218156814575
+    min: -0.4338516592979431
+    offset: -128
+    scale: 0.0033894660882651806
+  layer4.0.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.25396963953971863
+    min: -0.255969375371933
+    offset: -128
+    scale: 0.0019997607450932264
+  layer4.0.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.7269774079322815
+    min: -0.7327015995979309
+    offset: -128
+    scale: 0.005724231246858835
+  layer4.0.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.6954744458198547
+    min: -0.700950562953949
+    offset: -128
+    scale: 0.005476176273077726
+  layer4.0.downsample.0.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 2.776059150695801
+    min: -2.7979178428649902
+    offset: -128
+    scale: 0.021858733147382736
+  layer4.1.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.12109311670064926
+    min: -0.12204661220312119
+    offset: -128
+    scale: 0.0009534891578368843
+  layer4.1.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.43283259868621826
+    min: -0.4362407326698303
+    offset: -128
+    scale: 0.0034081307239830494
+  layer4.1.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.45155781507492065
+    min: -0.45511341094970703
+    offset: -128
+    scale: 0.003555573523044586
+  layer4.2.conv1.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.11553549021482468
+    min: -0.11644522100687027
+    offset: -128
+    scale: 0.000909728289116174
+  layer4.2.conv2.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.6389296650886536
+    min: -0.6439606547355652
+    offset: -128
+    scale: 0.005030942615121603
+  layer4.2.conv3.weight:
+  - bitwidth: 8
+    dtype: int
+    is_symmetric: 'True'
+    max: 0.7244654893875122
+    min: -0.7301698923110962
+    offset: -128
+    scale: 0.005704452283680439
+quantizer_args:
+  activation_bitwidth: 8
+  dtype: int
+  is_symmetric: true
+  param_bitwidth: 8
+  per_channel_quantization: false
+  quant_scheme: post_training_tf_enhanced
+version: 0.6.1
