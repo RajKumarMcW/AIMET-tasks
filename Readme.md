@@ -61,6 +61,6 @@ Imagenet Pretrained
 
   - resnet50_w8a16
     - FP32 accuracy     : 76.060%
-    - Quantized accuracy: 75.966%
+    - Quantized accuracy: 75.754%
   
 ---
