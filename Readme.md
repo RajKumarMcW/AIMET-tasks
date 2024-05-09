@@ -54,13 +54,16 @@ Imagenet Pretrained
 ---
 
 ## Result:
-
+  - resenet50_baseline
+    - Top1: 76.060% 
+    - Top5: 92.974%
+    
   - resnet50_w8a8
-    - FP32 accuracy     : 76.060%
-    - Quantized accuracy: 75.634%
+    - Top1: 75.580% 
+    - Top5: 92.762%
 
   - resnet50_w8a16
-    - FP32 accuracy     : 76.060%
-    - Quantized accuracy: 75.754%
+    - Top1: 75.742% 
+    - Top5: 92.842%
   
 ---

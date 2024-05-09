@@ -45,17 +45,22 @@ def main(raw_args=None):
     model.from_pretrained(quantized=False)
 
     # Evaluate original
-    fp32_acc = eval_func(model = model.model, dataloader = eval_dataloader)
-    print(f'FP32 accuracy: {fp32_acc:0.3f}%')
+    print("\nBaseline:\n")
+    top1,top5 = eval_func(model = model.model, dataloader = eval_dataloader)
+    print(f'\nFP32 accuracy: Top1: {top1:0.3f}% Top5: {top5:0.3f}%')
     
+    print("\nPTQ")
     sim = model.get_quantsim(quantized=True)
     # Evaluate optimized
+    print("\nCompute Encoding")
     sim.compute_encodings(forward_pass, forward_pass_callback_args=encoding_dataloader)
-    quant_acc = eval_func(model = sim.model.to(device), dataloader = eval_dataloader)
-    print(f'Quantized quantized accuracy: {quant_acc:0.3f}%')
+    
+    qtop1,qtop5 = eval_func(model = sim.model.to(device), dataloader = eval_dataloader)
+    print(f'\nQuantized quantized accuracy: Top1: {qtop1:0.3f}% Top5: {qtop5:0.3f}%')
+    
+    print("\nExporting Model")
     input_shape = tuple(x if x is not None else 1 for x in config["input_shape"])
     sim.export(path=config['exports_path'], filename_prefix=config['exports_name'], dummy_input=torch.rand(input_shape),onnx_export_args=(aimet_torch.onnx_utils.OnnxExportApiArgs (opset_version=11)))
-    return {'fp32_acc':fp32_acc, 'quant_acc':quant_acc}
 
 if __name__ == '__main__':
     main()

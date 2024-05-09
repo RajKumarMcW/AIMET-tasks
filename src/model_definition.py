@@ -22,6 +22,7 @@ from aimet_torch.cross_layer_equalization import equalize_model
 from aimet_torch.adaround.adaround_weight import Adaround, AdaroundParameters
 from downloader import Downloader
 from aimet_torch.batch_norm_fold import fold_all_batch_norms
+from aimet_torch.model_validator.model_validator import ModelValidator
 
  
 class ResNet(Downloader):
@@ -60,20 +61,27 @@ class ResNet(Downloader):
             )
         
         if quantized:
-            
+            self.dummy_input = torch.rand(self.input_shape, device=self.device)
+            print("\nModel Validate 1")
+            ModelValidator.validate_model(self.model, model_input=self.dummy_input)
+            print("\nPrepare Model")
             self.model = prepare_model(self.model)
+            print("\nModel Validate 2")
+            ModelValidator.validate_model(self.model, model_input=self.dummy_input)
             
             if "cle" in self.cfg["optimization_config"]["quantization_configuration"]["techniques"]:
+                print("\nCLE......")
                 equalize_model(self.model, self.input_shape)
                 
             if "bn" in self.cfg["optimization_config"]["quantization_configuration"]["techniques"]:
+                print("\nBN.......")
                 fold_all_batch_norms(self.model, self.input_shape)
                 
             if "adaround" in self.cfg["optimization_config"]["quantization_configuration"]["techniques"]:
+                print("\nAdaRound....")
                 params = AdaroundParameters(data_loader=self.dataloader, num_batches=1,default_num_iterations=1)
-                dummy_input = torch.rand(self.input_shape, device=self.device)
                 self.model = Adaround.apply_adaround(self.model,
-                                                    dummy_input,
+                                                    self.dummy_input,
                                                     params,
                                                     path=self.cfg['exports_path'],
                                                     filename_prefix='Adaround',
@@ -95,7 +103,7 @@ class ResNet(Downloader):
             self.from_pretrained(quantized=True)
         else:
             self.from_pretrained(quantized=False)
-        dummy_input = torch.rand(self.input_shape, device=self.device)
+        
         kwargs = {
             "quant_scheme": self.cfg["optimization_config"][
                 "quantization_configuration"
@@ -106,8 +114,9 @@ class ResNet(Downloader):
             "default_output_bw": self.cfg["optimization_config"][
                 "quantization_configuration"
             ]["output_bw"], 
-            "dummy_input": dummy_input,
+            "dummy_input": self.dummy_input,
         }
+        print("\nQuantizationSim")
         sim = QuantizationSimModel(self.model, **kwargs)
         if quantized and "adaround" in self.cfg["optimization_config"]["quantization_configuration"]["techniques"]:
             sim.set_and_freeze_param_encodings(encoding_path=self.cfg['exports_path']+'/Adaround.encodings')

@@ -59,522 +59,522 @@ activation_encodings:
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 3.8022878170013428
+    max: 3.8023197650909424
     min: 0.0
     offset: 0
-    scale: 0.014910932630300522
+    scale: 0.014911058358848095
   '167':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.421084403991699
+    max: 4.421692848205566
     min: 0.0
     offset: 0
-    scale: 0.017337586730718613
+    scale: 0.017339972779154778
   '170':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 1.1050384044647217
-    min: -1.345264196395874
+    max: 1.10517418384552
+    min: -1.3454293012619019
     offset: -140
-    scale: 0.00960902962833643
+    scale: 0.009610209614038467
   '179':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.433994293212891
+    max: 4.4343671798706055
     min: 0.0
     offset: 0
-    scale: 0.01738821342587471
+    scale: 0.017389675602316856
   '187':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 3.0528194904327393
+    max: 3.0533461570739746
     min: 0.0
     offset: 0
-    scale: 0.01197184156626463
+    scale: 0.011973906308412552
   '195':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 6.8541107177734375
+    max: 6.8569135665893555
     min: 0.0
     offset: 0
-    scale: 0.02687886543571949
+    scale: 0.026889856904745102
   '198':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 1.3629772663116455
-    min: -1.6592767238616943
+    max: 1.3630895614624023
+    min: -1.6594133377075195
     offset: -140
-    scale: 0.011851976625621319
+    scale: 0.011852952651679516
   '207':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.324944496154785
+    max: 4.325227737426758
     min: 0.0
     offset: 0
-    scale: 0.016960566863417625
+    scale: 0.016961676999926567
   '215':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 3.7188711166381836
+    max: 3.718123435974121
     min: 0.0
     offset: 0
-    scale: 0.014583808369934559
+    scale: 0.01458087656646967
   '223':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 6.028536796569824
+    max: 6.028097152709961
     min: 0.0
     offset: 0
-    scale: 0.023641319945454597
+    scale: 0.02363959699869156
   '226':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 1.8196942806243896
-    min: -1.4712421894073486
+    max: 1.8204911947250366
+    min: -1.4718865156173706
     offset: -114
-    scale: 0.012905633077025414
+    scale: 0.012911285273730755
   '231':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 1.54904305934906
-    min: -1.2524176836013794
+    max: 1.5493614673614502
+    min: -1.2526752948760986
     offset: -114
-    scale: 0.01098612044006586
+    scale: 0.010988379828631878
   '240':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.30397891998291
+    max: 4.306238651275635
     min: 0.0
     offset: 0
-    scale: 0.016878347843885422
+    scale: 0.016887210309505463
   '248':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 2.5275816917419434
+    max: 2.527338981628418
     min: 0.0
     offset: 0
-    scale: 0.00991208478808403
+    scale: 0.009911132976412773
   '256':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 6.787522315979004
+    max: 6.788468360900879
     min: 0.0
     offset: 0
-    scale: 0.026617733761668205
+    scale: 0.026621444150805473
   '259':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 1.9501795768737793
-    min: -2.374131679534912
+    max: 1.9501359462738037
+    min: -2.3740785121917725
     offset: -140
-    scale: 0.0169580839574337
+    scale: 0.016957703977823257
   '268':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.29001522064209
+    max: 4.292294502258301
     min: 0.0
     offset: 0
-    scale: 0.01682358980178833
+    scale: 0.01683252677321434
   '276':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 3.255525827407837
+    max: 3.255098342895508
     min: 0.0
     offset: 0
-    scale: 0.012766768224537373
+    scale: 0.012765091843903065
   '284':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.475054740905762
+    max: 4.4816508293151855
     min: 0.0
     offset: 0
-    scale: 0.01754923351109028
+    scale: 0.017575101926922798
   '287':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 1.3732548952102661
-    min: -1.362526297569275
+    max: 1.3732688426971436
+    min: -1.3625400066375732
     offset: -127
-    scale: 0.010728553868830204
+    scale: 0.01072866190224886
   '296':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.839300155639648
+    max: 4.8400421142578125
     min: 0.0
     offset: 0
-    scale: 0.01897764764726162
+    scale: 0.01898055709898472
   '304':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 2.520085334777832
+    max: 2.5214877128601074
     min: 0.0
     offset: 0
-    scale: 0.009882687591016293
+    scale: 0.009888187050819397
   '312':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.864655494689941
+    max: 4.863609313964844
     min: 0.0
     offset: 0
-    scale: 0.019077081233263016
+    scale: 0.01907297782599926
   '315':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 3.094048261642456
-    min: -2.5015709400177
+    max: 3.0937108993530273
+    min: -2.501297950744629
     offset: -114
-    scale: 0.021943604573607445
+    scale: 0.021941211074590683
   '324':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.998032569885254
+    max: 4.998779296875
     min: 0.0
     offset: 0
-    scale: 0.019600126892328262
+    scale: 0.019603056833148003
   '332':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.047309875488281
+    max: 4.047286510467529
     min: 0.0
     offset: 0
-    scale: 0.0158718042075634
+    scale: 0.01587171107530594
   '340':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 5.152523994445801
+    max: 5.154730796813965
     min: 0.0
     offset: 0
-    scale: 0.02020597644150257
+    scale: 0.020214630290865898
   '343':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 1.4933059215545654
-    min: -1.2073535919189453
+    max: 1.4934604167938232
+    min: -1.2074787616729736
     offset: -114
-    scale: 0.010590821504592896
+    scale: 0.010591918602585793
   '348':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 1.191606342792511
-    min: -0.9634265303611755
+    max: 1.1917057037353516
+    min: -0.9635066986083984
     offset: -114
-    scale: 0.008451109752058983
+    scale: 0.008451812900602818
   '357':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.6080851554870605
+    max: 4.60905647277832
     min: 0.0
     offset: 0
-    scale: 0.018070921301841736
+    scale: 0.018074730411171913
   '365':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 3.3739418983459473
+    max: 3.392092227935791
     min: 0.0
     offset: 0
-    scale: 0.013231144286692142
+    scale: 0.01330232247710228
   '373':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.243997573852539
+    max: 4.243865013122559
     min: 0.0
     offset: 0
-    scale: 0.01664312742650509
+    scale: 0.016642607748508453
   '376':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 3.601240396499634
-    min: -2.6035993099212646
+    max: 3.6007845401763916
+    min: -2.6032698154449463
     offset: -107
-    scale: 0.02433270402252674
+    scale: 0.024329625070095062
   '385':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.606498718261719
+    max: 4.608336448669434
     min: 0.0
     offset: 0
-    scale: 0.018064700067043304
+    scale: 0.018071908503770828
   '393':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 1.9228214025497437
+    max: 1.9234464168548584
     min: 0.0
     offset: 0
-    scale: 0.0075404760427773
+    scale: 0.007542927283793688
   '401':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 3.149256706237793
+    max: 3.149557113647461
     min: 0.0
     offset: 0
-    scale: 0.01235002651810646
+    scale: 0.01235120464116335
   '404':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 0.829323947429657
-    min: -0.822844922542572
+    max: 0.8292042016983032
+    min: -0.8227261304855347
     offset: -127
-    scale: 0.0064790938049554825
+    scale: 0.006478158291429281
   '413':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.57405948638916
+    max: 4.550863265991211
     min: 0.0
     offset: 0
-    scale: 0.017937488853931427
+    scale: 0.017846522852778435
   '421':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 2.502995491027832
+    max: 2.504122257232666
     min: 0.0
     offset: 0
-    scale: 0.009815668687224388
+    scale: 0.009820086881518364
   '429':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.2426347732543945
+    max: 4.242908000946045
     min: 0.0
     offset: 0
-    scale: 0.016637783497571945
+    scale: 0.016638854518532753
   '432':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 1.217869520187378
-    min: -1.48262357711792
-    offset: -140
-    scale: 0.01059016864746809
+    max: 1.2708606719970703
+    min: -1.260932207107544
+    offset: -127
+    scale: 0.009928599931299686
   '441':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.930093765258789
+    max: 4.931683540344238
     min: 0.0
     offset: 0
-    scale: 0.019333701580762863
+    scale: 0.01933993585407734
   '449':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 2.9823150634765625
+    max: 2.982168674468994
     min: 0.0
     offset: 0
-    scale: 0.01169535331428051
+    scale: 0.011694778688251972
   '457':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.759992599487305
+    max: 4.738816261291504
     min: 0.0
     offset: 0
-    scale: 0.018666638061404228
+    scale: 0.018583593890070915
   '460':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 1.1723462343215942
-    min: -1.4272040128707886
+    max: 1.1570849418640137
+    min: -1.4086248874664307
     offset: -140
-    scale: 0.010194314643740654
+    scale: 0.010061606764793396
   '469':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 5.102927207946777
+    max: 5.103771209716797
     min: 0.0
     offset: 0
-    scale: 0.020011479035019875
+    scale: 0.020014788955450058
   '477':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 3.6469759941101074
+    max: 3.64780855178833
     min: 0.0
     offset: 0
-    scale: 0.014301866292953491
+    scale: 0.014305131509900093
   '485':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 5.298596382141113
+    max: 5.298110008239746
     min: 0.0
     offset: 0
-    scale: 0.020778808742761612
+    scale: 0.0207769013941288
   '488':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 1.568155288696289
-    min: -2.3522329330444336
+    max: 1.3725335597991943
+    min: -2.058800458908081
     offset: -153
-    scale: 0.015374071896076202
+    scale: 0.013456211425364017
   '497':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 4.5917205810546875
+    max: 4.569716453552246
     min: 0.0
     offset: 0
-    scale: 0.01800674758851528
+    scale: 0.01792045682668686
   '505':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 2.7189807891845703
+    max: 2.719270944595337
     min: 0.0
     offset: 0
-    scale: 0.010662669315934181
+    scale: 0.010663807392120361
   '513':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 9.894721984863281
+    max: 9.895675659179688
     min: 0.0
     offset: 0
-    scale: 0.03880283236503601
+    scale: 0.038806572556495667
   '516':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 3.882540464401245
-    min: -2.588360548019409
+    max: 3.8829007148742676
+    min: -2.5886001586914062
     offset: -102
-    scale: 0.025376083329319954
+    scale: 0.025378433987498283
   '521':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 2.817784070968628
-    min: -1.8785226345062256
+    max: 2.8190977573394775
+    min: -1.8793985843658447
     offset: -102
-    scale: 0.018416889011859894
+    scale: 0.01842547580599785
   '530':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 16.555416107177734
+    max: 16.62671661376953
     min: 0.0
     offset: 0
-    scale: 0.06492319703102112
+    scale: 0.06520280987024307
   '538':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 6.9061431884765625
+    max: 6.90129280090332
     min: 0.0
     offset: 0
-    scale: 0.027082914486527443
+    scale: 0.027063893154263496
   '546':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 15.74932861328125
+    max: 15.753524780273438
     min: 0.0
     offset: 0
-    scale: 0.06176207214593887
+    scale: 0.06177852675318718
   '549':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 3.009143352508545
-    min: -2.0060954093933105
+    max: 3.009939193725586
+    min: -2.0066261291503906
     offset: -102
-    scale: 0.019667603075504303
+    scale: 0.019672805443406105
   '558':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 25.035974502563477
+    max: 25.045373916625977
     min: 0.0
     offset: 0
-    scale: 0.09818029403686523
+    scale: 0.09821715205907822
   '566':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 7.0865478515625
+    max: 7.086887359619141
     min: 0.0
     offset: 0
-    scale: 0.027790384367108345
+    scale: 0.027791714295744896
   '574':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 23.89826202392578
+    max: 23.884469985961914
     min: 0.0
     offset: 0
-    scale: 0.09371867775917053
+    scale: 0.09366458654403687
   '577':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 6.793935537338257
-    min: -2.8845760822296143
+    max: 6.7755982875823975
+    min: -2.8767902851104736
     offset: -76
-    scale: 0.03795494884252548
+    scale: 0.03785250335931778
   '586':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 37.93754577636719
+    max: 37.914947509765625
     min: 0.0
     offset: 0
-    scale: 0.14877468347549438
+    scale: 0.14868606626987457
   '589':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 12.318648338317871
+    max: 12.321934700012207
     min: 0.0
     offset: 0
-    scale: 0.04830842465162277
+    scale: 0.04832131415605545
   '594':
   - bitwidth: 8
     dtype: int
     is_symmetric: 'False'
-    max: 41.12428665161133
-    min: -9.781990051269531
+    max: 41.134939193725586
+    min: -9.784524917602539
     offset: -49
-    scale: 0.1996324509382248
+    scale: 0.19968417286872864
   t.1:
   - bitwidth: 8
     dtype: int
